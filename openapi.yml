@@ -1,0 +1,22 @@
+openapi: 3.1.0
+info:
+  title: JST Time API
+  version: 1.0.0
+servers:
+  - url: https://japan-time-plugin.vercel.app
+paths:
+  /api/japan-time:
+    get:
+      summary: 現在の日本時間を返します
+      operationId: getJapanTime
+      responses:
+        '200':
+          description: 整形済みの日本時間を含むJSON
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  jst_time:
+                    type: string
+                    description: 整形済みの日本語での現在時刻（例："2025年7月12日（土）15時30分"）

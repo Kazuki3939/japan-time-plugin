@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "日本時間プラグイン",
+  "name_for_model": "japan_time_plugin",
+  "description_for_human": "日本の現在の時間を返すシンプルなプラグインです。",
+  "description_for_model": "現在の日本時間を取得するためにこのプラグインを使ってください。",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://japan-time-plugin.vercel.app/openapi.yaml"
+  },
+  "logo_url": "https://japan-time-plugin.vercel.app/logo.png",
+  "contact_email": "your-email@example.com",
+  "legal_info_url": "https://japan-time-plugin.vercel.app/legal.html"
+}
